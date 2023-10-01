@@ -1,0 +1,38 @@
+body{
+  font-family: 'Mooli', sans-serif;
+  margin: 0;
+}
+
+
+header{
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.left-head,
+.right-head{
+  flex-basis: 20%;
+  
+}
+
+.left-head{
+  text-align: start;
+}
+
+.mid-head{
+  text-align: center;
+  display: flex;
+  flex-basis: 60%;
+}
+
+.mid-head div{
+  flex-basis: 25%;
+}
+
+.right-head{
+  text-align: end;
+}
